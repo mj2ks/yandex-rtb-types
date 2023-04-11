@@ -33,3 +33,8 @@ export namespace yandex {
 	}
 	
 }
+export interface YaWindow {
+  yaContextCb: yandex.yaContextCb
+  Ya: typeof yandex.Ya
+}
+
