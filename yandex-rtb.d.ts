@@ -15,10 +15,10 @@ export namespace yandex {
 				type: ['error', 'warning']
 			}
 			interface RenderOptions {
-				async: boolean // ??
+				async?: boolean // ??
 				statId?: number
 				blockId: string
-				renderTo?: string
+				renderTo: string
 				onRender?: (data: RenderData) => void
 				onError?: (data: ErrorData) => void
 				onClose?: () => void
