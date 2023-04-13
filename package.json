@@ -1,5 +1,6 @@
 {
     "name": "yandex-rtb-types",
+    "version":"0.0.1",
     "author": "DVZ aka Majestic <mj2ks@mail.ru>",
     "main": "",
     "types": "yandex-rtb.d.ts",
